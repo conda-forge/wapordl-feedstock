@@ -1,5 +1,5 @@
 {% set name = "wapordl" %}
-{% set version = "0.4" %}
+{% set version = "0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wapordl-{{ version }}.tar.gz
-  sha256: 6b09593e71be454a5eb2246f9a63b48c6fe089e6bc0ea8b6b88dad0f8c6d42b2
+  sha256: 18fed5a1e5662e0a2a14724b23e2afde8c54fcad7133d9abf7f118411c83c2f8
 
 build:
   noarch: python
@@ -34,7 +34,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/bertcoerver/wapordl
+  home: https://bitbucket.org/cioapps/wapordl
   summary: Easily download subsets of WaPOR3 data.
   license: Apache-2.0
   license_file: LICENSE
