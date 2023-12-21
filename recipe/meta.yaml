@@ -34,7 +34,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/bertcoerver/wapordl
+  home: https://bitbucket.org/cioapps/wapordl
   summary: Easily download subsets of WaPOR3 data.
   license: Apache-2.0
   license_file: LICENSE
