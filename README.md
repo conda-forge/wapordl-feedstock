@@ -3,7 +3,7 @@ About wapordl-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/wapordl-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/bertcoerver/wapordl
+Home: https://bitbucket.org/cioapps/wapordl
 
 Package license: Apache-2.0
 
