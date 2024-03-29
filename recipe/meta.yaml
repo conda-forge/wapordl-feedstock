@@ -1,5 +1,5 @@
 {% set name = "wapordl" %}
-{% set version = "0.9" %}
+{% set version = "0.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wapordl-{{ version }}.tar.gz
-  sha256: 7d61a9583e6992fdbb5f57e1ba3f4352d3e2f6d9544eaba06cca8bf5fd8e1e39
+  sha256: 627fc01db6d96e6a0c2870f9285ddaed3ea138d2e8ca704af3fd0953b60e3622
 
 build:
   noarch: python
