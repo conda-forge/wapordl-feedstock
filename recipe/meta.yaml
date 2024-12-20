@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wapordl-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/wapordl-{{ version }}.tar.gz
   sha256: 274a5257862ce947da5833fdf8fb2ea35935434027c2a85cafc0e61071c090ec
 
 build:
