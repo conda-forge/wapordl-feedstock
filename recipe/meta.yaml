@@ -30,7 +30,7 @@ requirements:
     - xarray
     - rioxarray
     - dask
-    - matplotlib
+    - matplotlib-base
 
 test:
   imports:
