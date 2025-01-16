@@ -1,5 +1,5 @@
 {% set name = "wapordl" %}
-{% set version = "0.12.5" %}
+{% set version = "1.0.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/wapordl-{{ version }}.tar.gz
-  sha256: 274a5257862ce947da5833fdf8fb2ea35935434027c2a85cafc0e61071c090ec
+  sha256: c3907ec1c1d8e0616332aaed34a25731b1106efacbe303a5a0a142c248f87975
 
 build:
   noarch: python
@@ -27,10 +27,10 @@ requirements:
     - pandas >=2.1.0,<3
     - numpy >=1.15,<2
     - gdal >=3.4.0,<4
-    - shapely >=2.0.0
     - xarray
     - rioxarray
     - dask
+    - matplotlib
 
 test:
   imports:
