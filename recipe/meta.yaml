@@ -1,5 +1,5 @@
 {% set name = "wapordl" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/wapordl-{{ version }}.tar.gz
-  sha256: 47330b739dc98bae3f7b7f205e51005989ee30d547fb874a8c7c947da4357c7a
+  sha256: 15dc17da0990aa2fad7311b2e6720553d51a54555cb639c924d1c046fde79e1e
 
 build:
   noarch: python
@@ -30,6 +30,7 @@ requirements:
     - xarray
     - rioxarray
     - dask
+    - libgdal-netcdf
     - matplotlib-base
 
 test:
